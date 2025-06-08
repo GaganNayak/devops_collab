@@ -1,0 +1,7 @@
+stages:
+ - build
+ - deploy
+
+init:
+ script:
+  - echo "Hello from YAML file"
